@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tektur', cursive;
+}
+.header{
+    height: 70vh;
+    background: #cdfaef;
+}
+.nav{
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #c48e8e; */
+}
+
+.nav .logo img{
+    height: 70px;
+    padding-left: 150px;
+}
+.nav .menu ul{
+    list-style: none;
+    padding-right: 150px;
+}
+.nav .menu ul li{
+    display: inline;
+    cursor: pointer;
+    margin: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.nav .menu ul :last-child{
+    background: #039671;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.header .h-containor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .h-containor .left-h{
+    width: 40%;
+    /* background: #bb3d3d; */
+    margin-left: 150px;
+    padding-top: 60px;
+
+}
+.header .h-containor .left-h span{
+    color: red;
+    
+}
+.header .h-containor .right-h{
+    width: 40%;
+    /* background: #000; */
+}
+.header .h-containor .right-h img{
+    width: 100%;
+}
+
+.header .h-containor .left-h #higlit{
+    color: #039671;
+    font-size: 50px;
+    font-weight: 700;
+}
+.header .h-containor .left-h button{
+    background: #039671;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px 240px;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+}
+
+.img img{
+    height: 120px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 10px; */
+}
+.main .first-p{
+    /* margin-top: 80px; */
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    /* background: #000; */
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+
+.main .first-p .p{
+    height: 200px;
+    width: 170px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 0 black;
+    /* background: #a44646; */
+
+}
+.main .first-p .pd p{
+    font-size: x-small;
+    text-align: center;
+}
+.main .first-p .pd h3{
+    text-align: center;
+
+}
+.seckend-p{
+    /* background: #956060; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+}
+.seckend-p .sp{
+    width: 31%;
+    background: #f7f5f5;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+}
+
+.seckend-p .sp .pic img{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 25px auto;
+}
+.seckend-p .sp .date{
+    display: flex;
+    flex-wrap: wrap;
+}
+.seckend-p .sp .date img{
+    height: 25px;
+}
+.seckend-p .sp .dis button{
+    background: #039671;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    font-size: small;
+    font-weight: 500;
+    border: none;
+}
+
+.seckend-p .sp .dis h3{
+    padding: 10px 38px;
+}
+.seckend-p .sp .dis p{
+    padding: 10px 38px;
+    color: rgb(83, 82, 81);
+    
+}
+.seckend-p .sp .data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 38px;
+}

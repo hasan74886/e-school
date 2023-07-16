@@ -159,6 +159,8 @@ body{
 .seckend-p .sp .date{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
 }
 .seckend-p .sp .date img{
     height: 25px;

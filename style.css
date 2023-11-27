@@ -7,7 +7,7 @@ body{
     font-family: 'Tektur', cursive;
 }
 .header{
-    height: 70vh;
+    height: 79vh;
     background: #cdfaef;
 }
 .nav{
@@ -16,7 +16,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* background: #c48e8e; */
+     /* background: #c48e8e;  */
 }
 
 .nav .logo img{
@@ -28,6 +28,7 @@ body{
     padding-right: 150px;
 }
 .nav .menu ul li{
+    transform: scaleZ(12px);
     display: inline;
     cursor: pointer;
     margin: 10px;
@@ -93,13 +94,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
-    padding-bottom: 30px;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin: 10px; */
+    padding-bottom: 30px;gfv
 }
 .main .first-p{
-    /* margin-top: 80px; */
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -238,4 +235,4 @@ body{
 .main-f ul li{
     padding: 5px;
     
-}
+} 
